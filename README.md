@@ -1,14 +1,13 @@
- **# Process Management System**
+**# Process Management**
 
-
-**## Key Features**
+**1. Key Features**
 
 - **Streamlined Process Control:**
     - Initiate processes effortlessly with the `/start` endpoint.
     - Gracefully terminate processes using the `/stop/:processId` endpoint.
     - Gather valuable insights with the `/checklogs/:processId` endpoint.
 
-**## Endpoints**
+**2. Endpoints**
 
 - **`/start`:**
     - Initiates a new process which will generate a random number in a interval of 5 minutes and log that number along with timestamp.
@@ -20,15 +19,15 @@
     - Retrieves logs for the specified process.
     - Returns: Process logs.
 
-**## Getting Started**
+**3. Getting Started**
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/process-management-system.git
+    git clone https://github.com/dev-khalid/process-management.git
     ```
 2. **Install dependencies:**
     ```bash
-    cd process-management-system
+    cd process-management
     npm install
     ```
 3. **Start the server:**
@@ -36,12 +35,12 @@
     npm run dev
     ```
 
-**## Usage**
+**4. Usage**
 
 - Access the endpoints using your preferred HTTP client or browser.
 - Replace `:processId` with the actual process ID in the `/stop` and `/checklogs` endpoints.
 
-**## License**
+**5. License**
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
